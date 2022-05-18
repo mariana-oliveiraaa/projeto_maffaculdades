@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  height: 100vh;
+  color: #fff;
+}
+
+#app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas:
+    "header header"
+    "sidenav content"
+    "footer footer";
+}
+
+#header,
+#content,
+#sidenav,
+#footer {
+  border: 1px solid #fff;
+}
+
+#header {
+  grid-area: header;
+  background-color:#AE97DB;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
+#content {
+  grid-area: content;
+  background-color: #ffffff;
+}
+#footer {
+  grid-area: footer;
+  background-color: #AE97DB;
+}
+#sidenav {
+  grid-area: sidenav;
+  background-color: #AE97DB;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.block {
+  width: 215px;
+  height: 250px;
+  border: 2px solid rgb(0, 36, 104);
+  border-radius: 15px;
+  padding: 50px;
+  margin: 10px;
+  
+}
+
+#a {
+  background-color: rgb(72, 29, 228) 
+}
+
+#b { 
+  background-color: rgb(83, 192, 68);
+}
+
+#c {
+  background-color: rgb(199, 51, 25);
+}
+
+#txtBusca {
+  background-color: #edebf0;
+  border: 2px solid #000;
+
+}
+
